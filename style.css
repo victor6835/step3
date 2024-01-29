@@ -1,0 +1,53 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.between {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+}
+.step3 {
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 25px 35px;
+}
+
+.step3 .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 25px;
+}
+
+.step3 .title h2 {
+    font-weight: bold;
+}
+
+.buy-content {
+    padding: 20px 50px;
+    background-color: rgb(121, 239, 239);
+    border-radius: 18px;
+}
+
+.content-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.buy-result {
+    font-size: 20px;
+}
+
+.locate-title h4 {
+    font-weight: bold;
+    margin-block: 16px;
+}
+
+.locate-title input {
+    color: gray;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 100%;
+}
